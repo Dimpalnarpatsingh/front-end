@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image:url("C: \Users\user\Desktop\edda\arredare-piccola-gelateria.webp");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: -1;
+    color: rgb(173, 136, 233);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.container::after{
+    content:'';
+    position: absolute;
+    /* background: rgb(169, 206, 224); */
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.form{
+    position: absolute;
+    z-index: 2;
+    max-width: 600px;
+    padding: 20px;
+    background: rgba(253, 253, 255, 0.87);
+    text-align: center;
+    height: 100hv;
+}
+
+.form form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    padding: 30px;
+    max-width: 350px;
+    margin: 40px auto;
+    border-radius: 10px;
+}
+
+.form form input{
+    height: 40px;
+    width: 100%;
+    margin: 10px 0;
+    border: 0;
+    outline: none;
+    border: 1px solid black;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.form form button{
+    width: 100%;
+    margin-top: 20px;
+    height: 40px;
+    background: blanchedalmond;
+    border: 0;
+    outline: none;
+    border-radius: 8px;
+font-size: 1.1rem;
+color: white;
+font-weight: 600;
+}
+
+.formh11{
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    
+}
+
+.form p{
+    color: rgba(0, 5, 7, 0.637);
+}
+
+.social-icons i{
+    font-size: 1.5rem;
+    margin: 0 12px;
+
+}
+
+
+    
